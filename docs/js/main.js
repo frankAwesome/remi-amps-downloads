@@ -58,6 +58,7 @@
   const parallax = $$("[data-parallax]");
   const ampsSection = $(".amps");
   const modes = $$(".amps__modes li");
+  const ampFaces = $$(".amps__face");
   const fxPin = $(".fx__pin");
   const fxTrack = $(".fx__track");
 
@@ -92,6 +93,7 @@
       const idx = clamp(Math.floor(p * modes.length), 0, modes.length - 1);
       if (idx !== activeMode) {
         modes.forEach((m, i) => m.classList.toggle("is-active", i === idx));
+        ampFaces.forEach((f, i) => f.classList.toggle("is-active", i === idx));
         activeMode = idx;
       }
     }
