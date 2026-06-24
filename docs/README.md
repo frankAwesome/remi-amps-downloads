@@ -21,7 +21,7 @@ website/
 ├─ js/main.js          # one rAF scroll loop drives all scroll motion
 ├─ assets/
 │  ├─ fonts/           # the EXACT app fonts (Yellowtail + Oswald + DSEG7)
-│  └─ img/             # app icon + the 6 real plugin screenshots
+│  └─ img/             # app icon + the 8 real plugin screenshots (3 amps · 4 pedals · studio)
 └─ downloads/          # drop release binaries here (see downloads/README.txt)
 ```
 
@@ -36,7 +36,7 @@ chrome-gradient **Remi** (Yellowtail) over an amber SVG swash, with letter-space
 - Scroll-progress bar + condensing glass nav
 - Mouse-following cursor glow, magnetic buttons, 3D tilt on screenshots
 - Reveal-on-scroll with stagger (IntersectionObserver)
-- Pinned **amp** section whose MODE chips advance with scroll
+- Pinned **amp** section whose amp chips (AC30 · Plexi · Modern High Gain) advance with scroll
 - Pinned **pedalboard** that pans horizontally as you scroll vertically
 - Count-up stats, animated aurora background + film grain
 
