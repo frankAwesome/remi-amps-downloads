@@ -105,7 +105,7 @@
     <span>JTM45 · Dragon</span><i>✦</i>
     <span>Bogner · Recto · 5150</span><i>✦</i>
     <span>Dual-Engine Delay</span><i>✦</i>
-    <span>Vast Sky Reverb</span><i>✦</i>
+    <span>Reverb</span><i>✦</i>
     <span>CE-2 Chorus</span><i>✦</i>
     <span>SSL Console EQ</span><i>✦</i>
     <span>1176 FET Comp</span><i>✦</i>
@@ -117,7 +117,7 @@
     <span>JTM45 · Dragon</span><i>✦</i>
     <span>Bogner · Recto · 5150</span><i>✦</i>
     <span>Dual-Engine Delay</span><i>✦</i>
-    <span>Vast Sky Reverb</span><i>✦</i>
+    <span>Reverb</span><i>✦</i>
     <span>CE-2 Chorus</span><i>✦</i>
     <span>SSL Console EQ</span><i>✦</i>
     <span>1176 FET Comp</span><i>✦</i>
@@ -192,8 +192,10 @@
         <div class="fx__meta"><span class="fx__no">03</span><h3>Dual-Engine Delay</h3><p>Two delay engines, series or parallel. Four voicings — Digital, Studio, Analog, Tape — with in-loop saturation, diffusion and a blooming 3/16 swell.</p></div>
       </article>
       <article class="fx__card" style="--tint:#3f7fb5">
-        <div class="fx__img"><img src="assets/img/pedal-reverb.png" alt="Vast Sky reverb" loading="lazy" /></div>
-        <div class="fx__meta"><span class="fx__no">04</span><h3>Vast Sky Reverb</h3><p>Four best-in-class algorithms — Room, Hall, Plate and Spring — plus octave shimmer and decays out to 60 seconds.</p></div>
+        <!-- Reverb: the engine is internally "Vast Sky" (see src/dsp/VastSkyReverb), but the
+             site/UI label is just "Reverb" per request. Keep this card's name plain "Reverb". -->
+        <div class="fx__img"><img src="assets/img/pedal-reverb.png" alt="Reverb" loading="lazy" /></div>
+        <div class="fx__meta"><span class="fx__no">04</span><h3>Reverb</h3><p>Four best-in-class algorithms — Room, Hall, Plate and Spring — plus octave shimmer and decays out to 60 seconds.</p></div>
       </article>
     </div>
   </div>
@@ -202,7 +204,7 @@
 <!-- ░░ STUDIO ░░ -->
 <section class="studio" id="studio">
   <div class="studio__media" data-tilt>
-    <img src="assets/img/studio.png" alt="REMI Amps studio strip — SSL-style EQ and 1176 compressor" data-parallax="-0.06" />
+    <img src="assets/img/studio-strip.png" alt="REMI Amps studio strip — SSL-style EQ and 1176 compressor" data-parallax="-0.06" />
   </div>
   <div class="studio__copy">
     <p class="kicker reveal">The studio strip</p>
