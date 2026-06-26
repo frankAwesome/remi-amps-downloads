@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════
-   REMI Amps — Over the Edge · single-page site
+   REMI DSP — Over the Edge · single-page site
    Fonts are the EXACT app fonts: Yellowtail (logo) + Oswald (UI)
    ══════════════════════════════════════════════════════════════ */
 
@@ -118,7 +118,8 @@ em{font-style:normal;color:var(--amber-hi)}
 .logo__swash path{fill:none;stroke:var(--amber);stroke-width:3.4;stroke-linecap:round;
   filter:drop-shadow(0 0 6px rgba(231,169,58,.6))}
 .logo__sub{font-family:var(--font-ui);font-weight:600;font-size:.62rem;letter-spacing:.52em;
-  color:#cbcfd6;margin-top:.55em;padding-left:.18em;text-shadow:0 1px 2px #000}
+  color:#cbcfd6;margin-top:.55em;width:100%;text-align:center;padding-left:.52em;
+  text-shadow:0 1px 2px #000}
 .logo--footer .logo__script{font-size:2.6rem}
 
 /* ════════ NAV ════════ */

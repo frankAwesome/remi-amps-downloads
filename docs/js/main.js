@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════
-   REMI Amps — site interactions
+   REMI DSP — site interactions
    Vanilla JS. One rAF scroll loop drives all scroll-linked motion.
    ══════════════════════════════════════════════════════════════ */
 (() => {
